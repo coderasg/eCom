@@ -1,0 +1,14 @@
+@use "./../../variables";
+
+
+.horizontalTabs {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  background-color: white;
+  padding: variables.$paddingMid;;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: sticky;
+  top: 51px;
+}

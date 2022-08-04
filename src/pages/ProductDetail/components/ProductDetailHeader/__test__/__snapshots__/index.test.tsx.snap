@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProductDetailHeader should pass snapshot test 1`] = `
+<div
+  data-testid="ProductDetailHeader-wrapper"
+>
+  <section>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <SvgIcon
+        fill="#b1b0b5"
+        height={25}
+        width={25}
+      />
+    </a>
+    <span>
+      test
+    </span>
+  </section>
+  <section>
+    <SvgIcon
+      fill="#b1b0b5"
+      height={25}
+      width={25}
+    />
+    <SvgIcon
+      fill="#b1b0b5"
+      height={25}
+      width={25}
+    />
+  </section>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProductDescription should pass snapshot test 1`] = `
+<div
+  data-testid="ProductDescription-wrapper"
+>
+  <div>
+    Product Description
+  </div>
+  <div>
+    Sample
+  </div>
+</div>
+`;

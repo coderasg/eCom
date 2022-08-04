@@ -1,0 +1,22 @@
+@use './../../../../variables';
+
+.proceedToCheckout {
+  position: fixed;
+  bottom: 0px;
+  padding: variables.$paddingMid;
+  width: 100%;
+  background-color: variables.$footerColor;
+  color: variables.$white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .price {
+    font-size: 20px;
+  }
+
+  .shippinFee {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+@use './../../variables';
+
+.header {
+  padding: 10px;
+  border: 1px solid variables.$iconBackground;
+  background-color: variables.$white;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}

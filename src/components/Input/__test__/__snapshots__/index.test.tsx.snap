@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Input should pass snapshot test 1`] = `
+<div
+  data-testid="Input-wrapper"
+>
+  <input
+    data-testid="searchInput"
+    name="searchProduct"
+    onChange={[Function]}
+    placeholder="Search product"
+    type="text"
+    value="searc.."
+  />
+</div>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component)(Snapshot) TopPage should pass snapshot test 1`] = `
+<div
+  data-testid="TopPage-wrapper"
+>
+  <div
+    className="undefined undefined"
+    data-testid="Header-wrapper"
+  >
+    <div
+      data-testid="TopPageHeader-wrapper"
+    >
+      <section>
+        <SvgIcon
+          fill="#b1b0b5"
+          height={25}
+          width={25}
+        />
+        <div
+          data-testid="Input-wrapper"
+        >
+          <input
+            data-testid="searchInput"
+            name="searchProduct"
+            onChange={[Function]}
+            placeholder="Search product"
+            type="text"
+            value=""
+          />
+        </div>
+      </section>
+      <section>
+        <SvgIcon
+          fill="#b1b0b5"
+          height={25}
+          width={25}
+        />
+        <SvgIcon
+          fill="#b1b0b5"
+          height={20}
+          width={25}
+        />
+      </section>
+    </div>
+  </div>
+  <section>
+    <h1
+      data-testid="ProductCategories-Error"
+    >
+      failed to load: ReferenceError: fetch is not defined
+    </h1>
+    <div
+      data-testid="ProductList-Error"
+    >
+      <h1>
+        failed to load: ReferenceError: fetch is not defined
+      </h1>
+    </div>
+  </section>
+</div>
+`;

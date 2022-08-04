@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Header should pass snapshot test 1`] = `
+<div
+  className="undefined undefined"
+  data-testid="Header-wrapper"
+/>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) CommentCount should pass snapshot test 1`] = `
+<div
+  data-testid="CommentCount-wrapper"
+>
+  <SvgIcon
+    fill="#b1b0b5"
+    height={25}
+    width={25}
+  />
+  1
+</div>
+`;

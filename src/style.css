@@ -1,0 +1,13 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

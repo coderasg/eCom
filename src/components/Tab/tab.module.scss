@@ -1,0 +1,21 @@
+@use "./../../variables";
+
+.tab {
+  padding: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.selectedTab {
+  color: red;
+  position: relative;
+
+  .arrowDown {
+    position: absolute;
+    left: 0;
+    top: 23px;
+    width: 100%;
+    transform: rotate(180deg);
+  }
+}

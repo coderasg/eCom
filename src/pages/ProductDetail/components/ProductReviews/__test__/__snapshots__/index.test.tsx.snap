@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProductReviews should pass snapshot test 1`] = `
+<div
+  data-testid="ProductReviews-wrapper"
+>
+  <section>
+    <span
+      data-testid="Like-wrapper"
+    >
+      <SvgIcon
+        height={15}
+        width={15}
+      />
+      <span>
+        11
+      </span>
+    </span>
+    <div
+      data-testid="CommentCount-wrapper"
+    >
+      <SvgIcon
+        fill="#b1b0b5"
+        height={25}
+        width={25}
+      />
+      11
+    </div>
+  </section>
+  <section>
+    <SvgIcon
+      fill="#b1b0b5"
+      height={25}
+      width={25}
+    />
+  </section>
+</div>
+`;

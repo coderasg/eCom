@@ -1,0 +1,37 @@
+@use "./../../../../variables";
+
+.topPageHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  input {
+    background-color: variables.$headerInput;
+    border-radius: 5px;
+    padding: 2px;
+    height: 25px;
+    width: 65%;
+    min-width: 180px;
+    border: none;
+  }
+
+  section {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+
+  @media (min-width: 480px) {
+    display: flex;
+    justify-content: space-between;
+
+    section {
+      flex-grow: 0;
+      padding: 0 20px;
+    }
+
+    .flexLeft {
+      margin-left: auto;
+    }
+  }
+}

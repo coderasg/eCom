@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Like should pass snapshot test 1`] = `
+<span
+  data-testid="Like-wrapper"
+>
+  <SvgIcon
+    height={15}
+    width={15}
+  />
+  <span>
+    12
+  </span>
+</span>
+`;

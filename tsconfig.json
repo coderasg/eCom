@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "target": "es2015",
+    "strict": true,
+    "jsx": "react",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+		"./node_modules",
+    "./__mock__/data/*.json",
+    ".src/**/*.test.tsx",
+    ".src/**/*.test.ts",
+    ".src/__mockData__/*.ts",
+	]
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProceedToCheckout should pass snapshot test 1`] = `
+<div
+  data-testid="ProceedToCheckout-wrapper"
+>
+  <div>
+    <span>
+      Ұ1332
+    </span>
+     
+    <span>
+      included
+    </span>
+  </div>
+  <button
+    className="undefined undefined"
+    data-testid="Button-wrapper"
+    onClick={[Function]}
+  >
+    Proceed To Checkout
+  </button>
+</div>
+`;

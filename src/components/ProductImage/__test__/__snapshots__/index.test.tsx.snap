@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProductImage should pass snapshot test 1`] = `
+<div
+  className="undefined undefined"
+>
+  <img
+    data-testid="ProductImage-wrapper"
+    src="src"
+  />
+</div>
+`;

@@ -1,0 +1,8 @@
+@use "./../../variables";
+
+.button {
+  padding: variables.$paddingMid;
+  border: none;
+  background-color: variables.$checkoutButton;
+  color: variables.$white;
+}

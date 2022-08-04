@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) ProductListItem should pass snapshot test 1`] = `
+<div
+  data-testid="ProductListItem-wrapper"
+>
+  <a
+    href="/1"
+    onClick={[Function]}
+  >
+    <div
+      className="undefined undefined"
+    >
+      <img
+        data-testid="ProductImage-wrapper"
+        src="images/image_1.png"
+      />
+    </div>
+    <section>
+      <div>
+        Light pink shoes
+      </div>
+      <div>
+        <span>
+          Ұ51
+        </span>
+        <span
+          data-testid="Like-wrapper"
+        >
+          <SvgIcon
+            height={15}
+            width={15}
+          />
+          <span>
+            91
+          </span>
+        </span>
+      </div>
+    </section>
+  </a>
+</div>
+`;

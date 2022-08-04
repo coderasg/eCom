@@ -1,0 +1,15 @@
+@use "./../../../../variables";
+
+.productDescription {
+    border: 1px solid #ccc;
+
+
+  .title {
+    background-color: variables.$backgroundColor;
+    padding: 10px;
+  }
+
+  .decription {
+    padding: 10px;
+  }
+}
